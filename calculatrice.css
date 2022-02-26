@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    animation-name: back;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+@keyframes back{
+    0% {background-color: purple;}
+    25% {background-color: rgb(174, 29, 115);}
+    50% {background-color: rgb(76, 26, 67);}
+    75% {background-color: rgb(146, 98, 115);}
+    100% {background-color: purple}
+}
+.calculatrice{
+   position: relative;
+    top:40px;
+    left: 170px;
+   border:2px double purple;
+    border-radius: 2px;
+    width: 150px;
+    height: 170px;
+    background-color:azure;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.calculatrice input[type=button]{
+    height: 20px;
+    width:25px;
+    background: rgb(76, 26, 67);
+    color: white;
+    border: 1px black solid;
+    margin: -1px;
+    border-radius:5px;
+    font-size: 15px; 
+}
+.calculatrice input[type=button]:hover {
+    background: white;
+    color: rgb(76, 26, 67);
+}
+
+#c{
+    width: 52px;
+    background-color: indianred;
+}
+#eq{
+    width:78px;
+}
+#sqrt,#abs,#p{
+    font-size:13px;;
+}
+#abs {
+    width:52px;
+}
+.res {
+    width: 130px;
+    height: 25px;
+    border:2px double purple;
+    border-radius: 2px;
+}
+#title{
+    font-family:Cursive;
+    color:red;
+}
